@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poor+Story|Roboto+Mono');
+
+.App {
+  text-align: center;
+  font-family: 'Roboto Mono', sans-serif;
+  color: #313638;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #EF6461;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-family: 'Poor Story', sans-serif;
+  font-size: 5.5em;
+  margin: 20px;
+  color: #fff;
+}
+
+.App-title-mini {
+  font-size: 1.5rem;
+}
+
+.App-field {
+  width: 70%;
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.App-field > label {
+  color: #EF6461;
+}
+
+.App-field > label > small {
+  font-size: 0.6em;
+  color: #313638;
+}
+
+.App-field > input,
+.App-field > .App-editable {
+  border: 1px solid #313638;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+  background: #E0DFD5;
+  font-family: 'Roboto Mono', sans-serif;
+  text-align: left;
+  color: #313638;
+  outline: none;
+}
+
+.App-field > .App-editable {
+  min-height: 200px;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.App-field > input:focus,
+.App-field > .App-editable:focus {
+  border-color: #EF6461;
+}
+
+.App-field > .App-editable .App-editable-match {
+  color: #EF6461;
+}
+
+footer .App-credits p {
+  color: #313638;
+  font-size: 0.75em;
+  margin: 5px;
+}
+
+footer .App-credits a {
+  color: #E0DFD5;
+}
